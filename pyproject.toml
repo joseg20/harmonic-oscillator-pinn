@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pinn-project"
+version = "0.1.0"
+description = ""
+authors = ["tu-nombre <tu-email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"  # Especifica la versión de Python que deseas usar
+
+# Añade las dependencias equivalentes a las de conda
+jupyter = "1.0.0"
+numpy = "^1.24.4"
+matplotlib = "^3.8.2"
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+torchaudio = "^2.1.2"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
